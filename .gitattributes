@@ -3,3 +3,4 @@
 *.jar binary
 *.java linguist-language=Java
 *.yml linguist-detectable=false
+Dockerfile linguist-detectable=false
