@@ -38,7 +38,7 @@ Ensure you have the following installed:
    ```sh
    git clone https://github.com/Nightingaale/eureka-server.git
    ```
-2. Move to the project directory):
+2. Move to the project directory:
    ```sh
    cd eureka-server
    ```
