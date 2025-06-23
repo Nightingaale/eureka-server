@@ -60,4 +60,4 @@ Ensure you have the following installed:
    ```
 7. Configure Eureka:
    - Access the Keycloak admin console at `http://localhost:8761`
-   - (WARNING!) This request `http://localhost:8761/eureka` is Eureka API, not Eureka Server. You may check this request in Postman
+   - (WARNING!) This request `http://localhost:8761/eureka/` is Eureka API, not Eureka Server. You may check this request in Postman
