@@ -59,5 +59,5 @@ Ensure you have the following installed:
    docker ps
    ```
 7. Configure Eureka:
-   - Access the Keycloak admin console at `http://localhost:8761`
+   - Access the Eureka UI Server at `http://localhost:8761`
    - (WARNING!) This request `http://localhost:8761/eureka/` is Eureka API, not Eureka Server. You may check this request in Postman
