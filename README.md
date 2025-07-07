@@ -50,14 +50,10 @@ Ensure you have the following installed:
    ```sh
    docker-compose up -d
    ```
-5. Start your microservice:
-   ```sh
-   ./gradlew bootrun
-   ```
-6. Verify all services are running:
+5. Verify all services are running:
    ```sh
    docker ps
    ```
-7. Configure Eureka:
+6. Enter Eureka:
    - Access the Eureka UI Server at `http://localhost:8761`
    - (WARNING!) This request `http://localhost:8761/eureka/` is Eureka API, not Eureka Server
