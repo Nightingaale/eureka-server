@@ -1,6 +1,7 @@
 services:
   eureka-server:
     build: .
+    restart: unless-stopped
     ports:
       - "8761:8761"
     environment:
