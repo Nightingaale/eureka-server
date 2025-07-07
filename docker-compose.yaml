@@ -3,7 +3,7 @@ services:
     build: .
     restart: unless-stopped
     ports:
-      - "8761:8761"
+      - "8762:8761"
     environment:
       - SPRING_PROFILES_ACTIVE=dev
     networks:
