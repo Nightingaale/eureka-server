@@ -48,12 +48,8 @@ Ensure you have the following installed:
    ```
 4. Start the dev environment with Docker Compose:
    ```sh
-   docker-compose up -d
+   ./gradlew bootrun
    ```
-5. Verify all services are running:
-   ```sh
-   docker ps
-   ```
-6. Enter Eureka:
+5. Enter Eureka:
    - Access the Eureka UI Server at `http://localhost:8761`
    - (WARNING!) This request `http://localhost:8761/eureka/` is Eureka API, not Eureka Server
