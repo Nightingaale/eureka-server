@@ -11,3 +11,9 @@ eureka:
     enable-self-preservation: false
     renewal-percent-threshold: 0.85
     eviction-interval-timer-in-ms: 10000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus
