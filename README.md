@@ -1,4 +1,4 @@
-# Eureka-server
+# Eureka-server (Production)
 A service registry provided by Spring Cloud for microservices architecture
 <p align="left">
   <img src="https://skillicons.dev/icons?i=java,spring,gradle,docker,git"/>
