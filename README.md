@@ -1,4 +1,4 @@
-# Eureka-server
+# Eureka-server (Developer)
 A service registry provided by Spring Cloud for microservices architecture
 <p align="left">
   <img src="https://skillicons.dev/icons?i=java,spring,gradle,docker,git"/>
@@ -53,9 +53,3 @@ Ensure you have the following installed:
 5. Enter Eureka:
    - Access the Eureka UI Server at `http://localhost:8761`
    - (WARNING!) This request `http://localhost:8761/eureka/` is Eureka API, not Eureka Server
-  
-6. (Optionally):
-   - You may use Docker Compose for looking how application actually work in both Spring Boot Container & Docker Container
-   - Add dependency in build.gradle `runtimeOnly 'org.springframework.boot:spring-boot-docker-compose'`
-   - `docker compose up -d`
-   - `8761` - application from Spring Boot Container, `8762` - application from Docker Container
