@@ -1,7 +1,7 @@
 # Eureka-server (Production)
 A service registry provided by Spring Cloud for microservices architecture
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,gradle,docker,prometheus,git"/>
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=java,spring,gradle,docker,prometheus,git"/>
 </p>
 
 # Features
